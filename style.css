@@ -236,6 +236,61 @@ html, body {
   .cardtwo { background-color: #FEEAD2; }
   .cardthree { background-color: #FEFAE7; }
   .cardfour { background-color: #FEE7EF; }
+
+  .padding {
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .saying {
+    width: 450px;
+  }
+
+  .sayingbody {
+    margin-top: 70px;
+  }
+
+  .quote {
+    margin-top: 30px;
+  }
+
+  .appinfo {
+    width: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .arrow {
+    margin-top: 20px;
+  }
+
+  .footer {
+    margin-top: 150px;
+    width: 100%;
+  }
+
+  .footerimg {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footertext {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 12px;
+    font-family: ;
+    color: #485C11;
+  }
   
   /* MEDIA QUERIES */
   @media (max-width: 900px) {
