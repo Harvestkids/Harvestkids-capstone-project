@@ -12,16 +12,30 @@
 <body>
 
  <nav class="nav">
-     <div><img src="/Frame 273.png" alt="" width="131px" height="24px"></div>
+     <div><img src="Frame 273.png" alt="" width="131px" height="24px"></div>
+     <div class="flexlayouts">
      <div class="navlinks">
          <p>Benefit</p>
          <p>Specification</p>
          <p>How to</p>
      </div>
-<div>
-   <button class="startbtn">Start Learning Now</button>
-    
-</div>
+    <div>
+    <button class="startbtns">Start Learning Now</button>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  <!-- Fullscreen mobile menu -->
+  <nav class="overlay" id="mobileMenu" >
+    <div class="menu">
+      <a href="#benefit">Benefit</a>
+      <a href="#spec">Specification</a>
+      <a href="#howto">How to</a>
+      <button class="startbtn">Start Learning Now</button>
+    </div>
+  </nav>
  </nav>
 
     <div class="herolayout">
@@ -30,7 +44,7 @@
     <div class="txtpic">
     <h1 class="bgtxt">Learning just got </h1>
     <div class="vectorrot">
-    <img src="/Vector34.png" alt="" width="25px" height="36px">
+    <img src="Vector34.png" alt="" width="25px" height="36px">
     </div>
     </div>
     <div>
@@ -50,32 +64,32 @@
     <div class="pictext">
     <h2 class="number">20k+</h2>
     <div class="imgvect">
-    <img width="50.12px" height="50.12px" src="/Sketch-annotation-element-stroke-abstract-highlight-bling-line-1.png" alt="Three Lines">
+    <img width="50.12px" height="50.12px" src="Sketch-annotation-element-stroke-abstract-highlight-bling-line-1.png" alt="Three Lines">
     </div>
     </div>
     <p class="active">Active user</p>
     </div>
      </div>  
      <div class="containerone">
-        <img src="/Vector.png" alt="" height="200px" width="200px">
+        <img src="Vector.png" alt="" height="200px" width="200px">
     </div>
  <div class="sideright">
     
     <div class="containertwo">
         <div>
-        <img src="/Frame 249.png" alt="" width="350px" height="410px">
+        <img src="Frame 249.png" alt="" width="350px" height="410px">
     </div>
     <div class="img2left">
-        <img src="/Frame 268.png" alt="" width="205px" height="160px">
+        <img src="Frame 268.png" alt="" width="205px" height="160px">
     </div>
        
     </div>
     <div class="containerthree">
         <div>
-            <img src="/Frame 270.png" alt="" width="231px" height="200px">
+            <img src="Frame 270.png" alt="" width="231px" height="200px">
         </div>
         <div>
-            <img src="/Frame 250.png" alt="" width="289px" height="370px">
+            <img src="Frame 250.png" alt="" width="289px" height="370px">
         </div>
     </div>
  </div>
@@ -110,16 +124,16 @@
     <div class="cardlayoutone">
 
     <div class="cardone">
-        <div>
-      <img src="/Image.png" width="586px" height="489px" alt="" >  
+        <div class="imgcont">
+      <img class="cardimgs" src="Image.png" width="586px" height="489px" alt="" >  
     </div>
     <p>Practice makes perfect. Test yourself with timed quizzes, see instant results, and learn from detailed explanations to boost your confidence before exams.
 </p> 
     </div>
 
     <div class="cardtwo">
-        <div>
-            <img src="/Image.png" width="586px" height="489px" alt="" >  
+        <div class="imgcont">
+            <img class="cardimgs" src="Image.png" width="586px" height="489px" alt="" >  
           </div>
     <p>Practice makes perfect. Test yourself with timed quizzes, see instant results, and learn from detailed explanations to boost your confidence before exams.   
 </p> 
@@ -129,16 +143,16 @@
        <div class="cardlayouttwo">
 
     <div class="cardthree">
-        <div>
-            <img src="/Image.png" width="586px" height="489px" alt="" >  
+        <div class="imgcont">
+            <img class="cardimgs" src="Image.png" width="586px" height="489px" alt="" >  
           </div> 
     <p>Practice makes perfect. Test yourself with timed quizzes, see instant results, and learn from detailed explanations to boost your confidence before exams.   
 </p> 
     </div>
 
     <div class="cardfour">
-        <div>
-            <img src="/Image.png" width="586px" height="489px" alt="" >  
+        <div class="imgcont">
+            <img class="cardimgs" src="Image.png" width="586px" height="489px" alt="" >  
           </div>
     <p>Practice makes perfect. Test yourself with timed quizzes, see instant results, and learn from detailed explanations to boost your confidence before exams.   
 </p> 
@@ -147,19 +161,19 @@
     <div class="padding">
         <div class="sayingbody">
             <h1 class="saying">People are Saying About iLearn app</h1>
-            <img src="/quote.png" width="45px" height="38px" alt="" class="quote">
+            <img src="quote.png" width="45px" height="38px" alt="" class="quote">
             <p class="appinfo">I am very helped by this E-wallet application , my days are very easy to use this application and its very helpful in my life , even I can pay a short time 😍</p>
             <p>-Aria Zinanrio</p>
-            <img src="/arrow.png" width="108px" height="48px" alt="" class="arrow">
+            <img src="arrow.png" width="108px" height="48px" alt="" class="arrow">
         </div>
         <div>
-            <img src="/picture.png" width="500px" height="540px"  alt="">
+            <img src="picture.png" class="fpic" width="500px" height="540px"  alt="">
         </div>
     </div>
     <div class="footer">
         <div class="footerimg">
             <div>
-                <img src="/Frame 272.png" alt="">
+                <img src="Frame 272.png" alt="">
             </div>
             <div class="footertext">
                 <p>Benefits</p>
@@ -177,6 +191,49 @@
 
  
 </div>
+
+<script>
+       const hamburger = document.getElementById('hamburger');
+  const overlay = document.getElementById('mobileMenu');
+
+  function openMenu() {
+    overlay.classList.add('show');
+    hamburger.classList.add('active');
+    document.body.classList.add('no-scroll');
+  }
+
+  function closeMenu() {
+    overlay.classList.remove('show');
+    hamburger.classList.remove('active');
+    document.body.classList.remove('no-scroll');
+  }
+
+  function toggleMenu() {
+    if (hamburger.classList.contains('active') && document.body.classList.contains('no-scroll')) {
+      // ✅ If already active and no-scroll → go back to hamburger
+      closeMenu();
+    } else {
+      // ✅ Otherwise → open
+      openMenu();
+    }
+  }
+
+  hamburger.addEventListener('click', toggleMenu);
+
+  // Close if user clicks a menu link or button inside overlay
+  overlay.addEventListener('click', (e) => {
+    if (e.target.matches('a, .startbtn, p')) {
+      closeMenu();
+    }
+  });
+
+  // Close with ESC key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && hamburger.classList.contains('active')) {
+      closeMenu();
+    }
+  });
+  </script>
 
 </body>
 </html>
